@@ -25,10 +25,6 @@
             padding: 40px;
             text-align: center;
         }
-        .logo {
-            width: 200px;
-            margin-bottom: 20px;
-        }
         .profile-pic {
             border-radius: 50%;
             width: 150px;
@@ -64,7 +60,6 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://tu-bucket-de-almacenamiento/tu-logo.png" alt="Logo de Distribuciones Luzma" class="logo">
         <img src="https://tu-bucket-de-almacenamiento/tu-imagen-de-perfil.jpg" alt="Perfil" class="profile-pic">
         <h1>Bienvenido a Distribuciones Luzma</h1>
         <p>Síguenos en nuestras redes sociales y visita nuestros enlaces importantes:</p>

@@ -6,38 +6,65 @@
     <title>Bienvenido a Distribuciones Luzma</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
         .container {
-            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+        .logo {
+            width: 200px;
+            margin-bottom: 20px;
         }
         .profile-pic {
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            margin-top: 20px;
+            margin: 0 auto;
+            display: block;
+            border: 3px solid #007BFF;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 20px 0;
+            color: #666;
         }
         .links a {
-            display: block;
-            margin: 10px 0;
-            padding: 10px;
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
             background-color: #007BFF;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
         }
         .links a:hover {
             background-color: #0056b3;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="https://tu-bucket-de-almacenamiento/tu-logo.png" alt="Logo de Distribuciones Luzma" class="logo">
         <img src="https://tu-bucket-de-almacenamiento/tu-imagen-de-perfil.jpg" alt="Perfil" class="profile-pic">
         <h1>Bienvenido a Distribuciones Luzma</h1>
         <p>Síguenos en nuestras redes sociales y visita nuestros enlaces importantes:</p>

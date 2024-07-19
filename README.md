@@ -64,7 +64,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://tu-bucket-de-almacenamiento/tu-logo.png" alt="Logo de Distribuciones Luzma" class="logo">
+        <img src="[https://tu-bucket-de-almacenamiento/tu-logo.png](https://sumerlabs.com/default/image-tool-lambda?new-width=64&new-height=64&new-quality=80&url-image=https%3A%2F%2Fsumerlabs.com%2Fprod%2Fcatalogue%2F3186f9c9e12a3d88f4ab6d7cf940e0cb70c6d6ab%2Fimage1lkpkne39jrblv5hhqnb.png)" alt="Logo de Distribuciones Luzma" class="logo">
         <img src="https://tu-bucket-de-almacenamiento/tu-imagen-de-perfil.jpg" alt="Perfil" class="profile-pic">
         <h1>Bienvenido a Distribuciones Luzma</h1>
         <p>Síguenos en nuestras redes sociales y visita nuestros enlaces importantes:</p>
